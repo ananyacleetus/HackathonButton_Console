@@ -23,7 +23,7 @@ namespace HackButton_Console
                 client.OnDataReceivedCallBack(Datareceived);
 
                 //Guid buttonGuid = Guid.Parse("Add Guid of button you want to subscribe to.");
-                Guid buttonGuid = Guid.Parse("21350961-2024-e611-80c3-000d3a3384f5");
+                Guid buttonGuid = Guid.Parse("ba611b0d-2224-e611-80c3-000d3a3384f5");
                 Console.WriteLine($"Subsribing to button: {buttonGuid.ToString()}\n");
                 //Subscribe to button via its Guid identifier.
                 client.SubscribeToEntity(buttonGuid, ButtonTypeEnum.TwoRockerButton);
